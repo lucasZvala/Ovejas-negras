@@ -1,0 +1,85 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: flex; /* Usamos flexbox para alinear el menú y el logo */
+    justify-content: flex-end; /* Alinea los elementos al final (derecha) */
+    align-items: center; /* Alineación vertical al centro */
+}
+
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right; /* Alinea el texto de los botones a la derecha (opcional, para consistencia) */
+    margin-right: 25px;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin-left: 15px; /* Espacio entre los botones del menú */
+}
+
+nav ul.menu li:first-child {
+    margin-left: 0; /* Elimina el margen izquierdo del primer botón */
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.logo {
+    margin-right: 710px; /* Espacio entre el último botón y el logo */
+}
+
+.logo a {
+    display: block;
+}
+
+.logo img {
+    max-height: 50px; /* Ajusta la altura máxima del logo según necesites */
+}
+
+main {
+    padding-top: 80px; /* Ajusta según la altura de tu barra de navegación */
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section h2 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
